@@ -4,6 +4,9 @@ project.fragment.lock.json
 artifacts/
 bin/
 obj/
+**/bin/
+**/obj/
+
 *.user
 *.rsuser
 *.suo

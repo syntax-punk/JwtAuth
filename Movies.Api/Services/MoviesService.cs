@@ -1,4 +1,4 @@
-using Movies.Api.Models;
+using Movies.Api.Contracts;
 
 namespace Movies.Api.Services;
 

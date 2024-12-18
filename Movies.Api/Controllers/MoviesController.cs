@@ -1,29 +1,29 @@
 using Microsoft.AspNetCore.Mvc;
-using Movies.Api.Models;
+using Movies.Api.Contracts;
 using Movies.Api.Services;
 
 namespace Movies.Api.Controllers;
 
-[ApiController]
 [Route("api/[controller]")]
-public class MoviesController : Controller
+[ApiController]
+public class MoviesController : ControllerBase
 {
     [HttpGet]
-    public List<Movie> GetAll()
+    public IActionResult GetAll()
     {
         var result = MoviesService.GetMovies();
-        return result;
+        return Ok(result);
     }
     
     [HttpGet("{guid}")]
-    public Movie GetByGuid(Guid guid)
+    public IActionResult GetByGuid(Guid guid)
     {
         var result = MoviesService.GetMovieById(guid);
-        return result;
+        return Ok(result);
     }
     
     [HttpPost]
-    public IActionResult Create(MovieRequestDto movieDto)
+    public IActionResult Create([FromBody]MovieRequestDto movieDto)
     {
         var movie = MoviesService.ConvertToMovie(movieDto);
         MoviesService.AddMovie(movie);

@@ -1,8 +1,7 @@
-namespace Movies.Api.Models;
+namespace Movies.Api.Contracts;
 
-public class Movie
+public class MovieRequestDto
 {
-    public Guid Id { get; set; }
     public string Title { get; init; }
     public int ReleaseYear { get; set; }
 }

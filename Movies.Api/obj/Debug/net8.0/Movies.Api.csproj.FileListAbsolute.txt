@@ -30,3 +30,4 @@
 /Users/david/p/dotnet/JwtAuth/Movies.Api/obj/Debug/net8.0/Movies.Api.pdb
 /Users/david/p/dotnet/JwtAuth/Movies.Api/obj/Debug/net8.0/Movies.Api.genruntimeconfig.cache
 /Users/david/p/dotnet/JwtAuth/Movies.Api/obj/Debug/net8.0/ref/Movies.Api.dll
+/Users/david/p/dotnet/JwtAuth/Movies.Api/obj/Debug/net8.0/Movies.Api.sourcelink.json
