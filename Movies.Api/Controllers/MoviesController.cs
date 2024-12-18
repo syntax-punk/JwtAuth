@@ -8,25 +8,32 @@ namespace Movies.Api.Controllers;
 [ApiController]
 public class MoviesController : ControllerBase
 {
+    private readonly IMovieService _movieService;
+
+    public MoviesController()
+    {
+        _movieService = new MoviesService();
+    }
+    
     [HttpGet]
     public IActionResult GetAll()
     {
-        var result = MoviesService.GetMovies();
+        var result = _movieService.GetMovies();
         return Ok(result);
     }
     
-    [HttpGet("{guid}")]
-    public IActionResult GetByGuid(Guid guid)
+    [HttpGet("{id:guid}")]
+    public IActionResult GetByGuid([FromRoute] Guid id)
     {
-        var result = MoviesService.GetMovieById(guid);
+        var result = _movieService.GetMovieById(id);
         return Ok(result);
     }
     
     [HttpPost]
     public IActionResult Create([FromBody]MovieRequestDto movieDto)
     {
-        var movie = MoviesService.ConvertToMovie(movieDto);
-        MoviesService.AddMovie(movie);
+        var movie = _movieService.ConvertToMovie(movieDto);
+        _movieService.AddMovie(movie);
         return Ok(movie.Id);
     }
 }
