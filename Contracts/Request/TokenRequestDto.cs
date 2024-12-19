@@ -1,5 +1,3 @@
-using System.Collections;
-
 namespace Contracts.Request;
 
 public class TokenRequestDto
@@ -8,11 +6,20 @@ public class TokenRequestDto
     public string Username { get; set; }
     public string Email { get; set; }
     public string Password { get; set; }
-    public List<ClaimPair> CustomClaims { get; set; }
+    public List<PairClaim> CustomClaims { get; set; }
 }
 
-public class ClaimPair
+public class PairClaim : Dictionary<string, object>
 {
-    public string Key { get; set; }
-    public object Value { get; set; }
+    public string Key
+    {
+        get => this.Keys.FirstOrDefault()!; 
+        set => this.Add(value, this.Value);
+    }
+
+    public object Value
+    {
+        get => this.Values.FirstOrDefault()!; 
+        set => this.Add(this.Key, value);
+    }
 }

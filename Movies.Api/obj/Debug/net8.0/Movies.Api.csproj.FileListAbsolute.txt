@@ -39,3 +39,8 @@
 /Users/david/p/dotnet/JwtAuth/Movies.Api/bin/Debug/net8.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
 /Users/david/p/dotnet/JwtAuth/Movies.Api/bin/Debug/net8.0/Microsoft.IdentityModel.Tokens.dll
 /Users/david/p/dotnet/JwtAuth/Movies.Api/bin/Debug/net8.0/System.IdentityModel.Tokens.Jwt.dll
+/Users/david/p/dotnet/JwtAuth/Movies.Api/bin/Debug/net8.0/Contracts.deps.json
+/Users/david/p/dotnet/JwtAuth/Movies.Api/bin/Debug/net8.0/Contracts.runtimeconfig.json
+/Users/david/p/dotnet/JwtAuth/Movies.Api/bin/Debug/net8.0/Contracts
+/Users/david/p/dotnet/JwtAuth/Movies.Api/bin/Debug/net8.0/Contracts.dll
+/Users/david/p/dotnet/JwtAuth/Movies.Api/bin/Debug/net8.0/Contracts.pdb

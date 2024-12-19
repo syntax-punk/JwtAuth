@@ -11,7 +11,7 @@ namespace Identity.Api.Controllers;
 [ApiController]
 public class IdentityController : ControllerBase
 {
-    private const string TokenSecret = "SuperImpressiveSecurityKey";
+    private const string TokenSecret = "SuperImpressiveSecurityKeyIsHereForSureNoKiddinBro";
     private static readonly TimeSpan TokenLifetime = TimeSpan.FromHours(4);
     
     [HttpPost("token")]
@@ -50,7 +50,7 @@ public class IdentityController : ControllerBase
             Expires = DateTime.UtcNow.Add(TokenLifetime),
             Issuer = "http://id.syntaxpunk.local",
             Audience = "http://movies.syntaxpunk.local",
-            SigningCredentials = new SigningCredentials(new SymmetricSecurityKey(key), SecurityAlgorithms.HmacSha256Signature)
+            SigningCredentials = new SigningCredentials(new SymmetricSecurityKey(key), SecurityAlgorithms.HmacSha256)
         };
         
         var token = tokenHandler.CreateToken(tokenDescriptor);

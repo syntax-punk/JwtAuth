@@ -1,11 +1,23 @@
 {
   "Version": 1,
-  "Hash": "xnC91eZgXFMJSHpfcFgH2L+3FtVVsUytRg24QfDcHr4=",
+  "Hash": "tK9qOh/EbUu90ZxA2SbsSmz9p1rEHRS3aOjszr06SSA=",
   "Source": "Movies.Api",
   "BasePath": "_content/Movies.Api",
   "Mode": "Default",
   "ManifestType": "Build",
-  "ReferencedProjectsConfiguration": [],
+  "ReferencedProjectsConfiguration": [
+    {
+      "Identity": "/Users/david/p/dotnet/JwtAuth/Contracts/Contracts.csproj",
+      "Version": 2,
+      "Source": "Contracts",
+      "GetPublishAssetsTargets": "ComputeReferencedStaticWebAssetsPublishManifest;GetCurrentProjectPublishStaticWebAssetItems",
+      "AdditionalPublishProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework",
+      "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
+      "AdditionalBuildProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework"
+    }
+  ],
   "DiscoveryPatterns": [],
   "Assets": []
 }
