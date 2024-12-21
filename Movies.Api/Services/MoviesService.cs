@@ -21,6 +21,16 @@ public class MoviesService : IMovieService
         Movies.Add(movie);
     }
 
+    public bool DeleteMovie(Guid guid)
+    {
+        var movie = Movies.Find(m => m.Id == guid);
+        if (movie == null)
+            return false;
+        
+        Movies.Remove(movie);
+        return true;
+    }
+
     public Movie GetMovieById(Guid guid)
     {
         var result = Movies.FirstOrDefault(m => m.Id == guid);
