@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "tK9qOh/EbUu90ZxA2SbsSmz9p1rEHRS3aOjszr06SSA=",
+  "Hash": "dbh68B95jvBBR8vEDFJts4QpPGQ3qQEnzsiL7Xwp+9k=",
   "Source": "Movies.Api",
   "BasePath": "_content/Movies.Api",
   "Mode": "Default",
@@ -19,5 +19,6 @@
     }
   ],
   "DiscoveryPatterns": [],
-  "Assets": []
+  "Assets": [],
+  "Endpoints": []
 }

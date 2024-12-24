@@ -24,7 +24,6 @@
 /Users/david/p/dotnet/JwtAuth/Movies.Api/obj/Debug/net8.0/staticwebassets/msbuild.buildTransitive.Movies.Api.props
 /Users/david/p/dotnet/JwtAuth/Movies.Api/obj/Debug/net8.0/staticwebassets.pack.json
 /Users/david/p/dotnet/JwtAuth/Movies.Api/obj/Debug/net8.0/scopedcss/bundle/Movies.Api.styles.css
-/Users/david/p/dotnet/JwtAuth/Movies.Api/obj/Debug/net8.0/Movies.Api.csproj.CopyComplete
 /Users/david/p/dotnet/JwtAuth/Movies.Api/obj/Debug/net8.0/Movies.Api.dll
 /Users/david/p/dotnet/JwtAuth/Movies.Api/obj/Debug/net8.0/refint/Movies.Api.dll
 /Users/david/p/dotnet/JwtAuth/Movies.Api/obj/Debug/net8.0/Movies.Api.pdb
@@ -44,3 +43,8 @@
 /Users/david/p/dotnet/JwtAuth/Movies.Api/bin/Debug/net8.0/Contracts
 /Users/david/p/dotnet/JwtAuth/Movies.Api/bin/Debug/net8.0/Contracts.dll
 /Users/david/p/dotnet/JwtAuth/Movies.Api/bin/Debug/net8.0/Contracts.pdb
+/Users/david/p/dotnet/JwtAuth/Movies.Api/bin/Debug/net8.0/Contracts.staticwebassets.endpoints.json
+/Users/david/p/dotnet/JwtAuth/Movies.Api/bin/Debug/net8.0/Movies.Api.staticwebassets.endpoints.json
+/Users/david/p/dotnet/JwtAuth/Movies.Api/obj/Debug/net8.0/staticwebassets.build.endpoints.json
+/Users/david/p/dotnet/JwtAuth/Movies.Api/obj/Debug/net8.0/staticwebassets/msbuild.Movies.Api.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+/Users/david/p/dotnet/JwtAuth/Movies.Api/obj/Debug/net8.0/Movies.Api.csproj.Up2Date
